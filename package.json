@@ -1,7 +1,6 @@
 {
   "name": "hello-world",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "mocha"
@@ -9,8 +8,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
     "chai": "^4.1.2",
-    "express": "^4.16.2",
     "mocha": "^4.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcyang36/myapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcyang36/myapp/issues"
+  },
+  "homepage": "https://github.com/jcyang36/myapp#readme",
+  "description": ""
 }
